@@ -1,0 +1,15 @@
+@startuml feature verification fichier
+
+User -> Interface : deposerFichier(fichierPDF)
+Interface -> API: POST /fichier/verifierValidite/<fichierPDF>
+API -> VerificationFichier : estValide(fichierPDF)
+VerificationFichier -> VerificationFichier : ouvrir/lire fichier, vérifier validité
+alt fichier valide
+    API <-- VerificationFichier : pointsGagne
+else fichier invalide
+    API <-- VerificationFichier : fichier invalide
+end
+Interface <-- API : resultat
+User <-- Interface : afficher resultat
+
+@enduml
