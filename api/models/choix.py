@@ -2,7 +2,7 @@ from api import app,mysql
 import json
 
 class Choix():
-    def __init__():
+    def __init__(self):
         return 
 
     @staticmethod
