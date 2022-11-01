@@ -1,7 +1,7 @@
 from api import app,mysql
 
 class Quiz():
-    def __init__():
+    def __init__(self):
         return 
 
     @staticmethod
