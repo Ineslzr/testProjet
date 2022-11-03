@@ -22,7 +22,7 @@ Si vous ne parvenez pas à cloner le projet, vérifiez que vous avez bien géné
 
 2. Dans l'onglet **Comptes utilisateurs**, créez un utilisateur "root" avec comme mot de passe "root" (s'il n'existe pas déjà).
 
-3. Créez une base de données **worldtour** et y importez le fichier **wordltour.sql** trouvable dans le dossier **docs**. Vous devriez voir ensuite toutes les tables.
+3. Créez une base de données **worldtour** et y importer le fichier **wordltour.sql** trouvable dans le dossier **docs**. Vous devriez voir ensuite toutes les tables.
 
 ## Lancement du backend
 
@@ -45,9 +45,11 @@ cd backend
 python run.py
 ```
 
-Ouvrez ensuite un navigateur et taper l'URL suivante : **http://localhost:5000**.
+Ouvrez ensuite un navigateur et taper l'URL suivante : **http://localhost:5000**
 
 Vous devriez voir :
+
+![lancement_back](docs/lancement_back.png)
 
 
 ## Lancement du frontend
